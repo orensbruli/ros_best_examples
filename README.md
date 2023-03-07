@@ -1,6 +1,14 @@
 # ROS best examples
 It's like an 'awesome' kind of repo but only with examples of code of ROS development
 
+## Colcon
+
+### [Debug of cmake ](https://github.com/ros2/rosidl_typesupport_fastrtps/issues/60)
+```
+colcon build --event-handlers console_direct+ --packages-select find_fastrtps_test --cmake-args --trace-expand --trace-source=/opt/ros/rolling/share/fastrtps_cmake_module/cmake/Modules/FindFastRTPS.cmake
+```
+
+
 ## CMake
 Examples for ROS packages (not only nodes)
 
